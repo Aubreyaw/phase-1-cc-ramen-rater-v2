@@ -93,6 +93,21 @@ input[type="submit"]:active {
   background-color: gray;
 }
 
+.styled-button {
+  color: white;
+  font-size: 1rem;
+  border: 1px solid white;
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 300px;
+  height: 36px; 
+}
+
+.styled-button:active {
+  background-color: gray;
+}
+
 form h4 {
   width: 100%;
   padding: 0.25rem;
